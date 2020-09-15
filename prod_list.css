@@ -1,0 +1,31 @@
+.list_container{
+    margin-top: 150px;
+    width: 100%;
+    display: flex;
+}
+div.product{
+    width: 20%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.product img{
+    width: 60%;
+}
+.product img:hover{
+    transform: scale(1.5,1.5);
+    transition-duration: 1s;
+}
+h2 {
+    text-shadow: 2px 2px gray;
+}
+html {
+    scroll-behavior: smooth;
+}
+.box a{
+    color:black;
+}
+.box a:active{
+    color:red;
+    text-decoration: none;
+}
